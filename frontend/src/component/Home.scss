@@ -1,0 +1,24 @@
+.home {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://img.freepik.com/premium-photo/stock-market-forex-trading-graph-graphic-concept_73426-102.jpg?w=2000");
+  h1 {
+    .link {
+      text-decoration: none;
+      color: white;
+      font-size: 40px;
+      animation: mymove 5s infinite;
+    }
+  }
+}
+
+@keyframes mymove {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 200px;
+  }
+}

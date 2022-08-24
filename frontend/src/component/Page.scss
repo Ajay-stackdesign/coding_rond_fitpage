@@ -1,0 +1,56 @@
+@mixin page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+// @mixin flex {
+//   text-decoration: none;
+//   color: white;
+//   font-size: 18px;
+// }
+
+.page_flex {
+  width: 500px;
+  position: relative;
+  left: 500px;
+  border-radius: 20px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 20px #bebebe, -20px -20px 60px #ffffff;
+  @include page();
+  .page__heading {
+    Link {
+      .link {
+        position: relative;
+        left: 500px;
+      }
+    }
+  }
+  .page_flex_top {
+    background-color: rgb(28, 21, 21);
+    width: 500px;
+    @include page();
+    .page_flex_top_heading {
+      .page_flex_span_link {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        &:hover {
+          color: blue;
+          font-size: 25px;
+        }
+      }
+    }
+    .page_flex_span {
+      .page_flex_span_link {
+        text-decoration: none;
+        color: green;
+        font-size: 18px;
+        &:hover {
+          color: white;
+        }
+      }
+    }
+  }
+}

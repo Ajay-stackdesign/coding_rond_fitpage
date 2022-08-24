@@ -1,0 +1,29 @@
+[
+  {
+    "topgainer": "Sort - %price change in descending order"
+  },
+  {
+    "intraday": [
+      {
+        "currentCandle": "Current candle open = current candle high",
+        "previousCandle": "Previous candle open = previous candle high",
+        "previousCandleTwo": "2 previous candle’s open = 2 previous candle’s high"
+      }
+    ]
+  },
+  {
+    "openHigh": "Today’s open < yesterday’s low by (-3) %"
+  },
+  {
+    "cciReversal": "CCI (20) crosses below (100)"
+  },
+  {
+    "rsiReveral": [
+      {
+        "max": "Max of last 5 days close > Max of last 120 days close by (2)%",
+        "volume": "Today's Volume > prev (10) Vol SMA by (1.5)",
+        "greater": "RSI (14) greater than 20"
+      }
+    ]
+  }
+]

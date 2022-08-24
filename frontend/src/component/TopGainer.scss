@@ -1,0 +1,37 @@
+@mixin gainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.top__gainer {
+  @include gainer();
+  background-color: black;
+  width: 600px;
+  height: 300px;
+  position: relative;
+  left: 500px;
+  top: 200px;
+  .top__gainer__top {
+    background-color: blue;
+    width: 500px;
+    @include gainer();
+    height: 120px;
+    h2 {
+      color: red;
+      &:hover {
+        color: whitesmoke;
+      }
+    }
+    p {
+      color: greenyellow;
+    }
+  }
+  .top__gainer__stocks {
+    @include gainer();
+    h3 {
+      color: white;
+    }
+  }
+}

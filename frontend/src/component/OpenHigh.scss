@@ -1,0 +1,34 @@
+@mixin open {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.openHigh {
+  @include open();
+  background-color: black;
+  width: 600px;
+  height: 300px;
+  position: relative;
+  left: 500px;
+  top: 200px;
+  .open_high_flex {
+    background-color: blue;
+    width: 500px;
+    @include open();
+    height: 120px;
+    h2 {
+      color: white;
+    }
+    h6 {
+      color: greenyellow;
+    }
+  }
+  .open_high_stock {
+    @include open();
+    h3 {
+      color: white;
+    }
+  }
+}

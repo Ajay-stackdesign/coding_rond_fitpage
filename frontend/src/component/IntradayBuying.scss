@@ -1,0 +1,35 @@
+.intraday {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
+  width: 600px;
+  height: 500px;
+  position: relative;
+  left: 500px;
+  top: 100px;
+  .intraday__buying {
+    background-color: blue;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 120px;
+    p {
+      color: white;
+    }
+    h4 {
+      color: greenyellow;
+    }
+  }
+  .intraday__buying__stocks {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    p {
+      color: white;
+    }
+  }
+}

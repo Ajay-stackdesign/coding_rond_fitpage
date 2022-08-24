@@ -1,0 +1,40 @@
+.ccci__reversal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
+  width: 600px;
+  height: 300px;
+  position: relative;
+  left: 500px;
+  top: 200px;
+  .cci__reversal__bcci {
+    background-color: blue;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 120px;
+    h2 {
+      color: white;
+    }
+    h3 {
+      color: greenyellow;
+      font-size: 25px;
+      &:hover {
+        color: whitesmoke;
+        font-size: 30px;
+      }
+    }
+  }
+  .cci_reversal_stock {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    h3 {
+      color: white;
+    }
+  }
+}

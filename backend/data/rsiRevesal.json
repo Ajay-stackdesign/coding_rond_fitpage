@@ -1,0 +1,20 @@
+[
+  {
+    "currentCandle": "Current candle open = current candle high"
+  },
+  {
+    "previousCandle": "Previous candle open = previous candle high"
+  },
+  {
+    "previousCandleTwo": "2 previous candle’s open = 2 previous candle’s high"
+  },
+  {
+    "max": "Max of last 5 days close > Max of last 120 days close by (2)%"
+  },
+  {
+    "volume": "Today's Volume > prev (10) Vol SMA by (1.5)"
+  },
+  {
+    "greater": "RSI (14) greater than 20"
+  }
+]
